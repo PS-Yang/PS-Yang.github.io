@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Github Page,Hexo,NeXT,">
 
 
 
@@ -82,16 +82,22 @@
 
 
 
-<meta name="description" content="To say is one thing, to do is another.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ian隨手雜記">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="延續上一篇HEXO + github pages 快速建立部落格今天來試試後續內容吧">
+<meta name="keywords" content="Github Page,Hexo,NeXT">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HEXO + github pages 快速建立部落格2">
+<meta property="og:url" content="http://yoursite.com/2019/01/19/HEXO + github pages 快速建立部落格2/index.html">
 <meta property="og:site_name" content="Ian隨手雜記">
-<meta property="og:description" content="To say is one thing, to do is another.">
+<meta property="og:description" content="延續上一篇HEXO + github pages 快速建立部落格今天來試試後續內容吧">
 <meta property="og:locale" content="zh-tw">
+<meta property="og:image" content="https://2.bp.blogspot.com/-N0rX5ZEvbeA/XEGRELlwLiI/AAAAAAAAGHY/ToNJW8CkL4Y0XnBgHrtrPdxxx7kAR536QCLcBGAs/s1600/11.JPG">
+<meta property="og:image" content="https://1.bp.blogspot.com/-Eeox2-WKpMk/XEHyhCwkXeI/AAAAAAAAGH8/PumvTzVa8wQsOoUQsJ8deyJx-0Kfc8xVQCLcBGAs/s1600/13.JPG">
+<meta property="og:image" content="https://2.bp.blogspot.com/-c2AJOi4OlkA/XEHzXJ1z67I/AAAAAAAAGIE/Ef7AYNU3jng4Y1VRdUrw0MJdvcjrHIzowCLcBGAs/s1600/15.JPG">
+<meta property="og:updated_time" content="2019-01-19T04:36:25.941Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ian隨手雜記">
-<meta name="twitter:description" content="To say is one thing, to do is another.">
+<meta name="twitter:title" content="HEXO + github pages 快速建立部落格2">
+<meta name="twitter:description" content="延續上一篇HEXO + github pages 快速建立部落格今天來試試後續內容吧">
+<meta name="twitter:image" content="https://2.bp.blogspot.com/-N0rX5ZEvbeA/XEGRELlwLiI/AAAAAAAAGHY/ToNJW8CkL4Y0XnBgHrtrPdxxx7kAR536QCLcBGAs/s1600/11.JPG">
 
 
 
@@ -121,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/19/HEXO + github pages 快速建立部落格2/">
 
 
 
 
 
-  <title>Ian隨手雜記</title>
+  <title>HEXO + github pages 快速建立部落格2 | Ian隨手雜記</title>
   
 <script>
   window.fbAsyncInit = function() {
@@ -164,8 +170,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -268,9 +273,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -300,9 +305,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/01/19/HEXO + github pages 快速建立部落格2/" itemprop="url">HEXO + github pages 快速建立部落格2</a></h1>
+          <h1 class="post-title" itemprop="name headline">HEXO + github pages 快速建立部落格2</h1>
         
 
         <div class="post-meta">
@@ -384,18 +387,45 @@
       
 
       
-        
-          <p>延續上一篇<a href="https://ps-yang.github.io/2019/01/17/HEXO%20+%20github%20pages%20快速建立部落格/" target="_blank" rel="noopener">HEXO + github pages 快速建立部落格</a><br>今天來試試後續內容吧<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/01/19/HEXO + github pages 快速建立部落格2/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+        <p>延續上一篇<a href="https://ps-yang.github.io/2019/01/17/HEXO%20+%20github%20pages%20快速建立部落格/" target="_blank" rel="noopener">HEXO + github pages 快速建立部落格</a><br>今天來試試後續內容吧<br><a id="more"></a></p>
+<h1 id="發文"><a href="#發文" class="headerlink" title="發文"></a>發文</h1><p>流程也很簡單：<br><strong>創建一篇新文章 (new) → 編輯文章 → 產生靜態檔 (generate) &amp;佈署到 GitHub (deploy)</strong></p>
+<h2 id="創建一篇新文章-new"><a href="#創建一篇新文章-new" class="headerlink" title="創建一篇新文章 (new)"></a>創建一篇新文章 (new)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new [title]</span><br><span class="line">hexo new [layout] [title]</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>title為文章標題<br>layout是代表發文的三種分類 draft(草稿)、post(公開文章) 和page(頁面)<br>預設是 post 發文可以使用第一行指令即可</p>
+</blockquote>
+<h2 id="編輯文章"><a href="#編輯文章" class="headerlink" title="編輯文章"></a>編輯文章</h2><p>接著在 source / _post 資料夾中 會看到 [title].md 檔案 下圖為範例<br><img src="https://2.bp.blogspot.com/-N0rX5ZEvbeA/XEGRELlwLiI/AAAAAAAAGHY/ToNJW8CkL4Y0XnBgHrtrPdxxx7kAR536QCLcBGAs/s1600/11.JPG" alt=""><br>對此MD檔進行編輯 (Markdown 語法 <a href="https://markdown.tw/" target="_blank" rel="noopener">參考</a>)<br>也有許多可以用的軟體 參考此<a href="https://github.com/wizardforcel/markdown-simple-world/blob/master/1.md" target="_blank" rel="noopener">文章</a><br>我最後是使用 <a href="https://hackmd.io/" target="_blank" rel="noopener">hackMD</a><br>底下介紹一些我在文章中有使用的</p>
+<ul>
+<li><p>讓首頁文章內容不會全部顯示(有閱讀全文按鈕)</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
+</code></pre></li>
+<li><p>建立多個標籤(在每個標籤前面加上- )</p>
+<pre><code>![](https://3.bp.blogspot.com/-Y7jZ2BxPs4Y/XEG3MUxoRaI/AAAAAAAAGHs/wEt11oBGLHgRXpuEMB3W6MHNRYx2p33_wCLcBGAs/s1600/12.JPG)
+</code></pre><h2 id="產生靜態檔-generate-amp-佈署到-GitHub-deploy"><a href="#產生靜態檔-generate-amp-佈署到-GitHub-deploy" class="headerlink" title="產生靜態檔 (generate) &amp;佈署到 GitHub (deploy)"></a>產生靜態檔 (generate) &amp;佈署到 GitHub (deploy)</h2>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d  #=&gt; 產生靜態檔後佈署</span><br></pre></td></tr></table></figure>
+<p>  就能到github上看到剛剛發表的文章瞜</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>最後介紹一些我有進行修改的地方</p>
+</li>
+<li><strong>themes</strong><br>到 themes -&gt; next -&gt; _config.yml 進行修改<br>可以更換 scheme 目前有四種樣式 (Muse Mist Pisces Gemini)<br>把註解拿掉就能使用其中一種<br><img src="https://1.bp.blogspot.com/-Eeox2-WKpMk/XEHyhCwkXeI/AAAAAAAAGH8/PumvTzVa8wQsOoUQsJ8deyJx-0Kfc8xVQCLcBGAs/s1600/13.JPG" alt=""></li>
+<li><strong>menu</strong><br>menu的部分也可以看自己要選擇哪些東西<br>Tags(標籤) about(關於)  categories(分類) archives (歸檔)<br>schedule(行程表) sitemap (網站地圖)<br>更詳細內容可以參考 <a href="http://theme-next.iissnan.com/getting-started.html#menu-settings" target="_blank" rel="noopener">HEXO官網</a><br><img src="https://2.bp.blogspot.com/-c2AJOi4OlkA/XEHzXJ1z67I/AAAAAAAAGIE/Ef7AYNU3jng4Y1VRdUrw0MJdvcjrHIzowCLcBGAs/s1600/15.JPG" alt=""><br>若是要開啟Tags(標籤)功能<br>則需要新增一個頁面 流程如下</li>
+</ul>
+<ol>
+<li><p>在sources/tags 產生 index.md</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;tags&quot;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>編輯內容如下</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Tags</span><br><span class="line">date: 2019-01-18 22:20:50</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">comment: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>就能成功產生出Tags頁面了</p>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol>
+<li><a href="https://www.minwt.com/website/server/18522.html" target="_blank" rel="noopener">[架站] GitHub Pages 也可拿來架設HTML靜態網站，與綁定網域名稱 </a></li>
+<li><a href="https://pages.github.com/" target="_blank" rel="noopener">github pages</a></li>
+<li><a href="https://yaoandy107.github.io/hexo-tutorial/" target="_blank" rel="noopener">Hexo+GitHub，新手也可以快速建立部落格</a></li>
+<li><a href="https://hexo.io/zh-tw/docs/" target="_blank" rel="noopener">Hexo網站</a></li>
+<li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">Next</a></li>
+</ol>
+
       
-    </p></div>
+    </div>
     
     
     
@@ -408,171 +438,58 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/17/HEXO + github pages 快速建立部落格/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Ian Yang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/pic.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ian隨手雜記">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/01/17/HEXO + github pages 快速建立部落格/" itemprop="url">HEXO + github pages 快速建立部落格</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-01-17T23:27:59+08:00">
-                2019-01-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/日常雜記/" itemprop="url" rel="index">
-                    <span itemprop="name">日常雜記</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/Github-Page/" rel="tag"># Github Page</a>
           
-
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/01/17/HEXO + github pages 快速建立部落格/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count fb-comments-count" data-href="http://yoursite.com/2019/01/17/HEXO + github pages 快速建立部落格/" itemprop="commentCount">0</span> comments
-                </a>
-              </span>
-            
+            <a href="/tags/NeXT/" rel="tag"># NeXT</a>
           
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
+      
+        <div class="post-widgets">
         
-          <p>看了許多使用github page的個人網頁<br>有點手癢想自己嘗試看看效果如何</p>
-<h1 id="Github-Page"><a href="#Github-Page" class="headerlink" title="Github Page"></a>Github Page</h1><p>首先先在github建立Repository (使用者名稱.github.io)<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/01/17/HEXO + github pages 快速建立部落格/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
+
+        
+          <div class="social-like">
+            
+
+            
+              <div class="fb_like">
+                <div class="fb-like" data-layout="button_count" data-share="true"></div>
+              </div>
+            
           </div>
-          <!--/noindex-->
         
+
+        
+        </div>
       
-    </p></div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/01/17/HEXO + github pages 快速建立部落格/" rel="next" title="HEXO + github pages 快速建立部落格">
+                <i class="fa fa-chevron-left"></i> HEXO + github pages 快速建立部落格
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -582,10 +499,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -593,6 +511,16 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div class="fb-comments" data-href="http://yoursite.com/2019/01/19/HEXO + github pages 快速建立部落格2/" data-numposts="10" data-width="100%" data-colorscheme="light">
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -613,8 +541,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概觀
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -692,6 +629,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#發文"><span class="nav-number">1.</span> <span class="nav-text">發文</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#創建一篇新文章-new"><span class="nav-number">1.1.</span> <span class="nav-text">創建一篇新文章 (new)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#編輯文章"><span class="nav-number">1.2.</span> <span class="nav-text">編輯文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#產生靜態檔-generate-amp-佈署到-GitHub-deploy"><span class="nav-number">1.3.</span> <span class="nav-text">產生靜態檔 (generate) &amp;佈署到 GitHub (deploy)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他"><span class="nav-number">2.</span> <span class="nav-text">其他</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">3.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -832,6 +785,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -849,6 +806,18 @@
       <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2019/01/19/HEXO + github pages 快速建立部落格2/';
+          this.page.identifier = '2019/01/19/HEXO + github pages 快速建立部落格2/';
+          this.page.title = 'HEXO + github pages 快速建立部落格2';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
